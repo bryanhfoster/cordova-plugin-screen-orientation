@@ -52,9 +52,9 @@ setOrientationProperties();
 
 function addScreenOrientationApi(screenObject) {
 
-    if (screenObject.unlock || screenObject.lock) {
-        screenObject.nativeLock = screenObject.lock;
-    }
+    //if (screenObject.unlock || screenObject.lock) {
+    //    screenObject.nativeLock = screenObject.lock;
+    //}
 
     screenObject.lock = function(orientation) {
         var promiseLock;
